@@ -1,0 +1,1788 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Erick || Portffolio Website</title>
+    <link rel="stylesheet" href="erickportfolio.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-zz4FC9Rq5MzTcFyAMeB/PikV1G1hIn1Kok7bFF2euXq3tbg4YiFBo+xR6Fb6/D+/R5QV9ZgS8VvSjT2tRxe9LQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+</head>
+
+<body class="w3-card-4">
+
+    <!--This is our header section-->
+
+    <header class=" w3-bar w3-hide-small w3-hide-medium">
+
+
+
+
+        <div class=" w3-navbar w3-top w3-padding-32  w3-card-4 w3-hide-small"
+            style="background-color: var(--bg-color);">
+            <div class="logo w3-left" style="margin-left: 10%;"><span>E</span>rick.
+
+
+            </div>
+
+
+        
+
+
+            <div class="w3-hide-small w3-hide-medium w3-right" style="margin-right:10%;">
+                <a href="#home" class="w3-button w3-bar-item">Home</a>
+                <a href="#about" class="w3-button w3-bar-item">About</a>
+                <a href="#Education" class="w3-button w3-bar-item">Education</a>
+                <a href="#awards" class="w3-button w3-bar-item">Accolades & growth</a>
+                <a href="#contact90" class="w3-button w3-bar-item">Contact</a>
+
+
+                <a class="w3-dropdown-click w3-bar-item" style="padding:0px;">
+                    <a class="w3-button" onclick="toggleCard()">Work Experience</a>
+                    <div id="Demo" class="w3-dropdown-content w3-text-white w3-card-4 w3-block"
+                        style="background-color: #250821;width:20%;margin-left:37%;margin-top: 3%;">
+                        <a class="close-btn w3-button w3-padding w3-right" onclick="closeCard()"
+                            style="margin-top: 4%;">X</a>
+                        <a href="#meteorology" class="w3-button w3-block w3-left-align">Meteorology</a>
+                        <a href="#va" class="w3-button w3-block w3-left-align">Virtual assistance</a>
+                        <a href="#wihi" class="w3-button w3-block w3-left-align">WIHI(NGO)</a>
+                        <a href="#software" class="w3-button w3-block w3-left-align">Software Engineering</a>
+                    </div>
+                </a>
+
+
+
+
+
+            </div>
+
+
+
+            <div id="menu-icon" class="bx bx-menu"></div>
+        </div>
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+    </header>
+
+
+
+
+
+    <!---HEADER SMART PHONE-->
+
+    <header class=" w3-bar  w3-hide-large w3-hide-medium">
+
+
+
+
+        <div class=" w3-navbar w3-top w3-padding-16  w3-card-4 " style="background-color: var(--bg-color);">
+
+
+            <div class="logo w3-left" style="margin-left: 10%;"><span>E</span>rick.</div>
+
+            <div class="w3-card w3-circle w3-left profile-picture w3-center w3-padding"
+                style="width:50px;height:50px;background-image:url('erick.jpg');background-size:cover;margin-left:12%;">
+            </div>
+
+
+
+            <!----On clicking the bars-->
+            <div class="w3-sidebar w3-bar-block w3-card w3-animate-right "
+                style="display:none;right:0;width:300px;height:500px;background-color: #250821;" id="rightMenu">
+                <button onclick="closeRightMenu()" class=" w3-bar-item w3-button w3-large"> Close &times;</button>
+                <a href="#home1" class="w3-bar-item w3-button">Home</a>
+                <a href="#about1" class="w3-bar-item w3-button">About</a>
+                <a href="#Education1" class="w3-bar-item w3-button">Education</a>
+                <a href="#awards1" class="w3-bar-item w3-button">Accolades and Growth</a>
+                <a href="#contact6" class="w3-bar-item w3-button">Contacts</a>
+
+                <a class="w3-dropdown-click w3-bar-item  " style="padding:0;">
+                    <a class="w3-button" onclick="toggleCard1()">Work Experience</a>
+                    <div id="Demo6" class="w3-dropdown-content w3-card-4 w3-text-white w3-card-4 w3-block w3-text-black"
+                        style="width:200px;color:#b9b9b9;">
+                        <a class="close-btn w3-button w3-padding w3-right " onclick="closeCard1()">X</a>
+                        <a href="#meteorology1" class="w3-button w3-block w3-left-align">Meteorology</a>
+                        <a href="#va1" class="w3-button w3-block w3-left-align">Virtual assistance</a>
+                        <a href="#wihi1" class="w3-button w3-block w3-left-align">WIHI(NGO)</a>
+                        <a href="#software1" class="w3-button w3-block w3-left-align">Software Engineering</a>
+
+                    </div>
+                </a>
+
+
+
+            </div>
+
+
+            <button class="w3-button w3-hide-large  l w3-xlarge w3-right" style="margin-right:4%;"
+                onclick="openRightMenu()">&#9776;
+            </button>
+
+
+            <div id="menu-icon" class="bx bx-menu"></div>
+        </div>
+
+
+
+        </div>
+
+
+    </header>
+
+
+
+
+
+
+ <!---HEADER SMART TABLET-->
+
+ <header class=" w3-bar  w3-hide-large w3-hide-small">
+
+
+
+
+    <div class=" w3-navbar w3-top w3-padding-16  w3-card-4 " style="background-color: var(--bg-color);">
+
+
+        <div class="logo w3-left" style="margin-left: 10%;"><span>E</span>rick.</div>
+
+        <div class="w3-card w3-circle w3-left profile-picture w3-center w3-padding"
+            style="width:50px;height:50px;background-image:url('erick.jpg');background-size:cover;margin-left:12%;">
+        </div>
+
+
+
+        <!----On clicking the bars-->
+        <div class="w3-sidebar w3-bar-block w3-card w3-animate-right "
+            style="display:none;right:0;width:300px;height:500px;background-color: #250821;" id="rightMenu2">
+            <button onclick="closeRightMenu2()" class=" w3-bar-item w3-button w3-large"> Close &times;</button>
+            <a href="#home2" class="w3-bar-item w3-button">Home</a>
+            <a href="#about2" class="w3-bar-item w3-button">About</a>
+            <a href="#Education2" class="w3-bar-item w3-button">Education</a>
+            <a href="#awards2" class="w3-bar-item w3-button">Accolades and Growth</a>
+            <a href="#contact3" class="w3-bar-item w3-button">Contacts</a>
+
+            <a class="w3-dropdown-click w3-bar-item  " style="padding:0;">
+                <a class="w3-button" onclick="toggleCard2()">Work Experience</a>
+                <div id="Demo7" class="w3-dropdown-content w3-card-4 w3-text-white w3-card-4 w3-block w3-text-black"
+                    style="width:200px;color:#b9b9b9;">
+                    <a class="close-btn w3-button w3-padding w3-right " onclick="closeCard2()">X</a>
+                    <a href="#meteorology3" class="w3-button w3-block w3-left-align">Meteorology</a>
+                    <a href="#va2" class="w3-button w3-block w3-left-align">Virtual assistance</a>
+                    <a href="#wihi2" class="w3-button w3-block w3-left-align">WIHI(NGO)</a>
+                    <a href="#software2" class="w3-button w3-block w3-left-align">Software Engineering</a>
+
+                </div>
+            </a>
+
+
+
+        </div>
+
+
+        <button class="w3-button w3-hide-large  l w3-xlarge w3-right" style="margin-right:4%;"
+            onclick="openRightMenu2()">&#9776;
+        </button>
+
+
+        <div id="menu-icon" class="bx bx-menu"></div>
+    </div>
+
+
+
+    </div>
+
+
+
+
+</header>
+
+
+
+
+    <!-----Home section-->
+    <section id="home" class="home w3-hide-small w3-hide-medium" style="background-color:#250821;height:100vh;" ;>
+
+        <div class="w3-row">
+
+            <div class=" w3-container w3-half" style="margin-top: 5%;">
+                <h1>Hello! I'm Erick Olando</h1>
+                <div class="change-text">
+                    <h3>And I'm A</h3>
+                    <h3>
+                        <span class="word">Virtual &nbsp;Assistant</span>
+                        <span class="word">Software&nbsp; Developer</span>
+                        <span class="word">Meteorologist</span>
+
+
+                    </h3>
+                </div>
+                <br>
+                <p data-aos-anchor-placement="top-center">I am a certified Virtual assistant with extensive experience
+                    for
+                    over 9 months. My expertise is
+                    to assist you on any task related to data-entry, Research , and many more.I'm also a an experienced
+                    frontend Engineer with a Strong background in meteorology.Currently a software engineering student
+                    at
+                    ALX Africa/Holberton.
+                </p>
+
+
+
+
+                <div class=" btn-box" style="margin-top:24px;">
+                    <a href="#" class="btn">Download CV</a>
+                    <a href="#" class="btn"  onclick="redirectToPage('https://drive.google.com/file/d/1_BiYE4Ya9ghW7hzqW48FsTg8iWz5zazl/view?usp=sharing')">Hire me</a>
+                </div>
+
+
+
+            </div>
+
+
+
+            <div class="w3-hide-small w3-half" style="width:50%;margin-top: 12%;padding-left:12%;">
+
+                <img src="erick2.jpg" class="w3-card-4 " style="box-shadow: 0 0 0.3rem #12f7ff;">
+
+
+
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <!--Home section SMARTPHONE-->
+    <!-----Home section-->
+    <section id="home1" class="w3-hide-large w3-hide-medium " style="background-color:#250821;height:100vh;" ;>
+
+
+
+        <div class=" w3-container w3-half" style="padding:0px;margin-right:3%;margin-top:15%;">
+            <h2>Hello! I'm Erick Olando</h2>
+            <div class="change-text">
+                <h3>And I'm A</h3>
+                <h3>
+                    <span class="word">Virtual &nbsp;Assistant</span>
+                    <span class="word">Software&nbsp;Dev</span>
+                    <span class="word">Meteorologist</span>
+
+
+                </h3>
+            </div>
+            <br>
+            <p data-aos-anchor-placement="top-center">I am a certified Virtual assistant with extensive experience
+                for
+                over 9 months. My expertise is
+                to assist you on any task related to data-entry, Research , and many more.I'm also a an experienced
+                frontend Engineer with a Strong background in meteorology.Currently a software engineering student
+                at
+                ALX Africa/Holberton.Below is my Cv download.
+            </p>
+
+
+
+
+            <div class=" btn-box" style="margin-top:24px;">
+                <a href="#" class="btn">Hire Me</a>
+            <i class='bx bx-cloud-download w3-xxxlarge  w3-ripple' style="color:#12f7ff;margin-right:24%;" onclick="redirectToPage('https://drive.google.com/file/d/1_BiYE4Ya9ghW7hzqW48FsTg8iWz5zazl/view?usp=sharing')" ></i>
+                <!--a href="#" class="btn1">Hire Me Now</a--->
+            </div>
+
+
+
+        </div>
+
+
+
+    </section>
+
+
+
+    <!-----Home section-TABLET-->
+    <section id="home2" class="home w3-hide-small w3-hide-large" style="background-color:#250821;height:auto;" ;>
+
+
+
+        <div class=" w3-container " style="margin-top: 9%;">
+            <h1>Hello! I'm Erick Olando</h1>
+            <div class="change-text">
+                <h3>And I'm A</h3>
+                <h3>
+                    <span class="word">Virtual &nbsp;Assistant</span>
+                    <span class="word">Software&nbsp; Developer</span>
+                    <span class="word">Meteorologist</span>
+
+
+                </h3>
+            </div>
+            <br>
+            <p data-aos-anchor-placement="top-center">I am a certified Virtual assistant with extensive experience
+                for
+                over 9 months. My expertise is
+                to assist you on any task related to data-entry, Research , and many more.I'm also a an experienced
+                frontend Engineer with a Strong background in meteorology.Currently a software engineering student
+                at
+                ALX Africa/Holberton.Below is my Cv download.
+            </p>
+            </p>
+
+
+
+
+            <div class=" btn-box" style="margin-top:24px;">
+                <a href="#" class="btn">Donwload CV</a>
+                <i class='bx bx-cloud-download w3-xxxlarge  w3-ripple' style="color:#12f7ff;" onclick="redirectToPage('https://drive.google.com/file/d/1_BiYE4Ya9ghW7hzqW48FsTg8iWz5zazl/view?usp=sharing')" ></i>
+            </div>
+
+
+
+        </div>
+
+
+
+
+
+
+    </section>
+
+
+
+
+
+
+
+
+    <!--This is the About Me section-->
+
+    <section id="about" class=" w3-hide-small w3-hide-medium row" style="height:100vh;background-color: #250821;">
+        <div class=" w3-half" style="margin-top:10%;">
+            <img src="erick.jpg" class="w3-card-4" style="box-shadow:0 0 0.3rem #12f7ff ;" data-aos="fade-up"
+                data-aos-anchor-placement="top-center">
+
+
+        </div>
+
+        <div class=" w3-half" style="margin-top:8%;">
+            <h1>About Me</h1>
+            <p style="color:#bdbdbd;" data-aos="fade-up" data-aos-anchor-placement="top-center">My name is Erick
+                Olando.A passionate Meteorologist,Virtual assistant and frontend
+                developer.Currently,am
+                pursuing a masters degree in meteorology at the department of Earth and climate science,University of
+                Nairobi.Am also an ambassador(representing Kenya) for an NGO based in Switzerland refered to as
+                WIHI(Creates a global network of weather stations for improved weather forecasting using Blockchain/Ai
+                Technology).Am also a software Engineering student at ALX Africa/Holberton and a fellow at The Room
+                Fellowship.Am passionate about technology,weather and Virtual Assistance.I am always excited and eager
+                to leverage my skills in a dynamic team.I enjoy my career journey and love to explore through different
+                working experiences. </p>
+        </div>
+
+
+    </section>
+
+
+
+    <!----ABOUT ME SMARTPHONE--->
+
+    <section id="about1" class="w3-hide-large  w3-hide-medium" style="background-color: #250821;height:auto">
+
+        <div class=" w3-center" style="overflow:hidden;">
+            <img src="erick2.jpg">
+
+        </div>
+
+        <div style="margin-top:3%;">
+            <h2>About Me</h2>
+            <p style="color:#bdbdbd;" data-aos="fade-up" data-aos-anchor-placement="top-center">My name is Erick
+                Olando.A passionate Meteorologist,Virtual assistant and frontend
+                developer.Currently,am
+                pursuing a masters degree in meteorology at the department of Earth and climate science,University of
+                Nairobi.Am also an ambassador(representing Kenya) for an NGO based in Switzerland refered to as
+                WIHI(Creates a global network of weather stations for improved weather forecasting using Blockchain/Ai
+                Technology).Am also a software Engineering student at ALX Africa/Holberton and a fellow at The Room
+                Fellowship.Am passionate about technology,weather and Virtual Assistance.I am always excited and eager
+                to leverage my skills in a dynamic team.I enjoy my career journey and love to explore through different
+                working experiences. </p>
+        </div>
+
+
+    </section>
+
+
+
+
+
+    <!--This is the About Me TABLET-->
+
+    <section id="about2" class=" w3-hide-small w3-hide-large" style="height:auto;background-color: #250821;">
+        <div class="w3-center" style="margin-top:3%;">
+            <img src="erick.jpg" class="w3-card-4 w3-center" style="box-shadow:0 0 0.3rem #12f7ff ;" data-aos="fade-up"
+                data-aos-anchor-placement="top-center">
+
+
+        </div>
+
+        <div class=" w3-container" id="aboutx" style="margin-top:4%;">
+            <h2 class="w3-center">About Me</h2>
+            <p style="color:#bdbdbd;" data-aos="fade-up" data-aos-anchor-placement="top-center">My name is Erick
+                Olando.A passionate Meteorologist,Virtual assistant and frontend
+                developer.Currently,am
+                pursuing a masters degree in meteorology at the department of Earth and climate science,University of
+                Nairobi.Am also an ambassador(representing Kenya) for an NGO based in Switzerland refered to as
+                WIHI(Creates a global network of weather stations for improved weather forecasting using Blockchain/Ai
+                Technology).Am also a software Engineering student at ALX Africa/Holberton and a fellow at The Room
+                Fellowship.Am passionate about technology,weather and Virtual Assistance.I am always excited and eager
+                to leverage my skills in a dynamic team.I enjoy my career journey and love to explore through different
+                working experiences. </p>
+        </div>
+
+
+    </section>
+
+
+
+
+
+
+
+    <!--Section Education-->
+    <section id="Education" class="w3-hide-small w3-hide-medium" style="height:100vh;background-color: #250821;height:auto;">
+        <div>
+            <h1>Education</h1>
+            <br>
+            <div class="w3-row">
+                <div class="w3-third " style="padding-right:3%;color:#bdbdbd;" data-aos="fade-up"
+                    data-aos-anchor-placement="top-center">
+                    <img src="uon.webp" style="width:90%;height:23vh;text-shadow: 0 0 0.3rem #12f7ff;"
+                        class="w3-card-4">
+                    <h3 style="text-shadow: 0 0 0.3rem #12f7ff;">University of Nairobi</h3>
+                    <p><strong>From December,2023 - Present</strong></p>
+                    <p><span class="w3-border-bottom">1.Msc Meteorology</span></p>
+                    <br>
+                    <p><strong>From September,2018 - September,2022</strong></p>
+                    <p><span class="w3-border-bottom">2.Bsc Meteorology</span>
+                        <strong>(Second class upper Division(Honors))</strong>
+                    </p>
+
+                    <div class="w3-left-align" style="margin-top:4%;"> <a
+                            onclick="redirectToPage('https://sciencetechnology.uonbi.ac.ke/basic-page/undergraduates-2022')"
+                            class="w3-center w3-padding w3-border w3-card-14  w3-button" style="box-shadow: 3%;">Learn
+                            More</a>
+                    </div>
+
+
+                </div>
+
+                <div class="w3-third" style="padding-left:3%;color:#bdbdbd;" data-aos="fade-up"
+                    data-aos-anchor-placement="top-center">
+                    <img src="Maranda.jpg" style="width:90%;height:23vh;text-shadow: 0 0 0.3rem #12f7ff;"
+                        class="w3-card-4" data-aos="fade-up" data-aos-anchor-placement="top-center">
+                    <h3 style="text-shadow: 0 0 0.3rem #12f7ff;">Maranda High school</h3>
+                    <p><strong>From February,2014 -<br>December,2017</strong></p>
+
+                    <p><span class="w3-border-bottom">KCSE</span><br>(Kenya Certificate of
+                        Secondary<br> Education)</p>
+                    <br>
+                    <p><strong>Grade: B- </strong></p>
+
+                    <div class="w3-left-align" style="margin-top:4%;"> <a
+                            onclick="redirectToPage('https://marandahighschool.sc.ke/')"
+                            class="w3-center w3-padding w3-border w3-card-14 w3-button" style="box-shadow: 3%;">Learn
+                            More</a>
+                    </div>
+
+
+
+                </div>
+
+
+                <div class="w3-third " style="padding-left:3%;color:#bdbdbd;" data-aos="fade-up"
+                    data-aos-anchor-placement="top-center">
+                    <img src="St.Peters.jpg" style="width:90%;height:23vh;text-shadow: 0 0 0.3rem #12f7ff;"
+                        class="w3-card-4">
+                    <h3 style="text-shadow: 0 0 0.3rem #12f7ff;"> S.t Peter's Mumias Boys</h3>
+                    <p><strong>From January,2005 - <br>November, 2013</strong></p>
+
+                    <p><span class="w3-border-bottom">KCPE</span><br>(Kenya Certificate Of
+                        Primary <br>Education)</p>
+                    <br>
+                    <p><strong>Grade: A- </strong></p>
+
+
+                    <div class="w3-left-align" style="margin-top:4%;"> <a
+                            onclick="redirectToPage('https://primaryschool.co.ke/butere-mumias/mumias/nabongo/st-peters-mumias-boys-boarding-15882/')"
+                            class="w3-center w3-padding w3-border w3-card-14  w3-button" style="box-shadow: 3%;">Learn
+                            More</a>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+    <!--Section Education SMARTPHONE-->
+    <section id="Education1" style="height:auto;background-color: #250821;" class="w3-hide-medium w3-hide-large">
+        <div>
+            <h2>Education</h2>
+            <br>
+            <div>
+                <div style="padding-right:3%;color:#bdbdbd;" data-aos="fade-up" data-aos-anchor-placement="top-center">
+                    <img src="uon.webp" style="width:90%;height:23vh;text-shadow: 0 0 0.3rem #12f7ff;"
+                        class="w3-card-4">
+                    <h3 style="text-shadow: 0 0 0.3rem #12f7ff;">University of Nairobi</h3>
+                    <p><strong>From December,2023 - Present</strong></p>
+                    <p><span class="w3-border-bottom">1.Msc Meteorology</span></p>
+                    <br>
+                    <p><strong>From September,2018 - September,2022</strong></p>
+                    <p><span class="w3-border-bottom">2.Bsc Meteorology</span>
+                        <strong>(Second class upper Division(Honors))</strong>
+                    </p>
+
+                    <div class="w3-left-align" style="margin-top:4%;"> <a
+                            onclick="redirectToPage('https://sciencetechnology.uonbi.ac.ke/basic-page/undergraduates-2022')"
+                            class="w3-center w3-padding w3-border w3-card-14  w3-button" style="box-shadow: 3%;">Learn
+                            More</a>
+                    </div>
+
+
+                </div>
+
+                <div style="padding-right:3%;color:#bdbdbd;margin-top: 10%;" data-aos="fade-up"
+                    data-aos-anchor-placement="top-center">
+                    <img src="Maranda.jpg" style="width:90%;height:23vh;text-shadow: 0 0 0.3rem #12f7ff;"
+                        class="w3-card-4" data-aos="fade-up" data-aos-anchor-placement="top-center">
+                    <h3 style="text-shadow: 0 0 0.3rem #12f7ff;">Maranda High school</h3>
+                    <p><strong>From February,2014 -<br>December,2017</strong></p>
+
+                    <p><span class="w3-border-bottom">KCSE</span><br>(Kenya Certificate of
+                        Secondary<br> Education)</p>
+                    <br>
+                    <p><strong>Grade: B- </strong></p>
+
+                    <div class="w3-left-align" style="margin-top:4%;"> <a
+                            onclick="redirectToPage('https://marandahighschool.sc.ke/')"
+                            class="w3-center w3-padding w3-border w3-card-14 w3-button" style="box-shadow: 3%;">Learn
+                            More</a>
+                    </div>
+
+
+
+                </div>
+
+
+                <div style="padding-right:3%;color:#bdbdbd;margin-top:10%;" data-aos="fade-up"
+                    data-aos-anchor-placement="top-center">
+                    <img src="St.Peters.jpg" style="width:90%;height:23vh;text-shadow: 0 0 0.3rem #12f7ff;"
+                        class="w3-card-4">
+                    <h3 style="text-shadow: 0 0 0.3rem #12f7ff;"> S.t Peter's Mumias Boys</h3>
+                    <p><strong>From January,2005 - <br>November, 2013</strong></p>
+
+                    <p><span class="w3-border-bottom">KCPE</span><br>(Kenya Certificate Of
+                        Primary <br>Education)</p>
+                    <br>
+                    <p><strong>Grade: A- </strong></p>
+
+
+                    <div class="w3-left-align" style="margin-top:4%;"> <a
+                            onclick="redirectToPage('https://primaryschool.co.ke/butere-mumias/mumias/nabongo/st-peters-mumias-boys-boarding-15882/')"
+                            class="w3-center w3-padding w3-border w3-card-14  w3-button" style="box-shadow: 3%;">Learn
+                            More</a>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+
+
+    <!--Section Education--TABLET-->
+    <section id="Education2" class="w3-hide-small w3-hide-large" style="height:auto;background-color: #250821;">
+        <div style="margin-top:2%;margin-left:3%; " class="w3-padding-16 w3-row">
+            <h2>Education</h2>
+            <br>
+
+            <div class="w3-third" style="padding-right:3%;color:#bdbdbd;" data-aos="fade-up"
+                data-aos-anchor-placement="top-center">
+                <img src="uon.webp" style="width:90%;height:23vh;text-shadow: 0 0 0.3rem #12f7ff;" class="w3-card-4">
+                <h3 style="text-shadow: 0 0 0.3rem #12f7ff;">University of Nairobi</h3>
+                <p><strong>From December,2023 - Present</strong></p>
+                <p><span class="w3-border-bottom">1.Msc Meteorology</span></p>
+                <br>
+                <p><strong>From September,2018 - September,2022</strong></p>
+                <p><span class="w3-border-bottom">2.Bsc Meteorology</span>
+                    <strong>(Second class upper Division(Honors))</strong>
+                </p>
+
+                <div class="w3-left-align" style="margin-top:4%;"> <a
+                        onclick="redirectToPage('https://sciencetechnology.uonbi.ac.ke/basic-page/undergraduates-2022')"
+                        class="w3-center w3-padding w3-border w3-card-14  w3-button" style="box-shadow: 3%;">Learn
+                        More</a>
+                </div>
+
+
+            </div>
+
+            <div class="w3-third" style="padding-left:3%;color:#bdbdbd;" data-aos="fade-up"
+                data-aos-anchor-placement="top-center">
+                <img src="Maranda.jpg" style="width:90%;height:23vh;text-shadow: 0 0 0.3rem #12f7ff;" class="w3-card-4"
+                    data-aos="fade-up" data-aos-anchor-placement="top-center">
+                <h3 style="text-shadow: 0 0 0.3rem #12f7ff;">Maranda High school</h3>
+                <p><strong>From February,2014 -<br>December,2017</strong></p>
+
+                <p><span class="w3-border-bottom">KCSE</span><br>(Kenya Certificate of
+                    Secondary<br> Education)</p>
+                <br>
+                <p><strong>Grade: B- </strong></p>
+
+                <div class="w3-left-align" style="margin-top:4%;"> <a
+                        onclick="redirectToPage('https://marandahighschool.sc.ke/')"
+                        class="w3-center w3-padding w3-border w3-card-14 w3-button" style="box-shadow: 3%;">Learn
+                        More</a>
+                </div>
+
+
+            </div>
+
+
+
+
+            <div class=" w3-left-align w3-third" style="color:#bdbdbd;padding-left:3%;" data-aos="fade-up" data-aos-anchor-placement="top-center"
+                style="margin-top:8%;">
+                <img src="St.Peters.jpg" style="width:90%;height:23vh;text-shadow: 0 0 0.3rem #12f7ff;"
+                    class="w3-card-4">
+                <h3 style="text-shadow: 0 0 0.3rem #12f7ff;"> S.t Peter's Mumias Boys</h3>
+                <p><strong>From January,2005 - <br>November, 2013</strong></p>
+
+                <p><span class="w3-border-bottom">KCPE</span><br>(Kenya Certificate Of
+                    Primary <br>Education)</p>
+                <br>
+                <p><strong>Grade: A- </strong></p>
+
+
+                <div class="" style="margin-top:4%;"> <a
+                        onclick="redirectToPage('https://primaryschool.co.ke/butere-mumias/mumias/nabongo/st-peters-mumias-boys-boarding-15882/')"
+                        class="w3-center w3-padding w3-border w3-card-14  w3-button" style="box-shadow: 3%;">Learn
+                        More</a>
+                </div>
+
+            </div>
+
+
+
+
+        </div>
+
+    </section>
+
+
+
+
+
+    <!---Section Work Experience-->
+    <section id="meteorology" class="w3-hide-small w3-hide-medium "
+        style="background-image: url('Tower.webp');background-size:cover;background-position: center;height:100vh;overflow:hidden;background-attachment: fixed;">
+
+
+        <div class="w3-row w3-container" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+            <h1 class="w3-left-align " style="text-shadow:url(--neon-box-shadow)">Meteorology</h1>
+
+            <div class="w3-half">
+
+
+                <h2 style="text-shadow:#bdbdbd;color:#b9b9b9;">Jomo Kenyatta Int'l Airport</h2>
+                <p style="color:#bdbdbd;filter: blur(0);"><span style="color:white;">Title:</span>Meteorological
+                    Intern</p>
+                <p style="color:#bdbdbd;filter: blur(0);"><span style="color:white;">Major
+                        Role:</span>Specialized in aviation operations, I forecasted critical weather parameters
+                    and ensured smooth airport operations. My expertise lay in optimizing logistics for safe and
+                    efficient flights.</p>
+                <p>Date:</p>
+
+
+
+
+                <br>
+                <h2 style="text-shadow:#bdbdbd ;color:#b9b9b9;">Eldoret International Airport</h2>
+                <p><span style="color:white;">Title:</span>Meteorological Attachee</p>
+                <p style="color: #bdbdbd;"><span style="color:white;">Major Role:</span> Collaborating with
+                    meteorologists, I helped distribute vital weather information to pilots and airport
+                    operators, saving lives, property, and costs for airlines.</p>
+                <p>Date:</p>
+
+
+
+            </div>
+
+
+            <div class="w3-half">
+                <div style="margin-left:12%;">
+                    <h2 style="text-shadow:#bdbdbd;color:#a9a9a9;">General roles</h2>
+
+                    <p class="w3-left-align" style="color: #bdbdbb;">
+
+                        - Monitoring weather parameters like clouds, pressure e.tc.<br>
+                        - Coding and decoding weather reports.<br>
+                        - Disseminating meteorological data.<br>
+                        - Plotting forms and charts.<br>
+                        - Verifying data with Synergy and AWOS systems.<br>
+                        - Analyzing and forecasting weather.<br>
+                        - Preparing aviation meteorological information.<br>
+                        - Compiling flight folders and documentation.<br>
+                        - Issuing weather alerts through SIGMET alerts.<br>
+                        - Conducting weather briefings.
+                    </p>
+                </div>
+
+
+                <div class="w3-left-align" style="margin-top:3%;margin-left: 15%;"> <a
+                        onclick="redirectToPage('https://www.linkedin.com/in/erick-olando-9a9148220')"
+                        class="w3-center w3-border w3-padding w3-button">Read More</a>
+                </div>
+
+
+            </div>
+
+
+
+
+        </div>
+
+
+
+    </section>
+
+
+
+
+
+    <!---Section Work Experience--TABLET-->
+    <section id="meteorology3" class="w3-hide-small w3-hide-large"
+        style="background-image: url('Tower.webp');background-size:cover;background-position: center;height:auto;overflow:hidden;background-attachment: fixed;">
+
+
+        <div class="w3-row" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+            <h2 class="w3-left-align " style="text-shadow:url(--neon-box-shadow)">Meteorology</h2>
+
+            <div class="w3-half">
+
+
+                <h3 style="text-shadow:#bdbdbd;color:#b9b9b9;">Jomo Kenyatta Int'l Airport</h3>
+                <p style="color:#bdbdbd;filter: blur(0);"><span style="color:white;">Title:</span>Meteorological
+                    Intern</p>
+                <p style="color:#bdbdbd;filter: blur(0);"><span style="color:white;">Major
+                        Role:</span>Specialized in aviation operations, I forecasted critical weather parameters
+                    and ensured smooth airport operations. My expertise lay in optimizing logistics for safe and
+                    efficient flights.</p>
+                <p>Date:</p>
+
+
+
+
+                <br>
+                <h2 style="text-shadow:#bdbdbd ;color:#b9b9b9;">Eldoret International Airport</h2>
+                <p><span style="color:white;">Title:</span>Meteorological Attachee</p>
+                <p style="color: #bdbdbd;"><span style="color:white;">Major Role:</span> Collaborating with
+                    meteorologists, I helped distribute vital weather information to pilots and airport
+                    operators, saving lives, property, and costs for airlines.</p>
+                <p>Date:</p>
+
+
+
+            </div>
+
+
+            <div class="w3-half">
+                <div style="margin-left:12%;">
+                    <h3 style="text-shadow:#bdbdbd;color:#a9a9a9;">General roles</h3>
+
+                    <p class="w3-left-align" style="color: #bdbdbb;">
+
+                        - Monitoring weather parameters like clouds, pressure e.tc.<br>
+                        - Coding and decoding weather reports.<br>
+                        - Disseminating meteorological data.<br>
+                        - Plotting forms and charts.<br>
+                        - Verifying data with Synergy and AWOS systems.<br>
+                        - Analyzing and forecasting weather.<br>
+                        - Preparing aviation meteorological information.<br>
+                        - Compiling flight folders and documentation.<br>
+                        - Issuing weather alerts through SIGMET alerts.<br>
+                        - Conducting weather briefings.
+                    </p>
+                </div>
+
+
+                <div class="w3-left-align" style="margin-top:3%;margin-left: 15%;"> <a
+                        onclick="redirectToPage('https://www.linkedin.com/in/erick-olando-9a9148220')"
+                        class="w3-center w3-border w3-padding w3-button">Read More</a>
+                </div>
+
+
+            </div>
+
+
+
+
+        </div>
+
+
+
+    </section>
+
+
+
+
+
+    <!---Section METEOROLOGY SMARTPHONE-->
+    <section class="w3-hide-large w3-hide-medium" id="meteorology2"
+        style="background-image: url('Tower.webp');background-size:cover;background-position: center;height:auto;overflow:hidden;background-attachment: fixed;">
+
+
+        <div class=" " data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+            <h2 class="w3-left-align" style="text-shadow:url(--neon-box-shadow);margin-top:3%;" id="meteorology1">
+                Meteorology</h2>
+
+            <div>
+
+
+                <h3 style="text-shadow:#bdbdbd;color:#b9b9b9;">Jomo Kenyatta Int'l Airport</h3>
+                <p style="color:#bdbdbd;filter: blur(0);"><span style="color:white;">Title:</span>Meteorological
+                    Intern</p>
+                <p style="color:#bdbdbd;filter: blur(0);"><span style="color:white;">Major
+                        Role:</span>Specialized in aviation operations, I forecasted critical weather parameters
+                    and ensured smooth airport operations. My expertise lay in optimizing logistics for safe and
+                    efficient flights.</p>
+                <p>Date:</p>
+
+
+
+
+                <br>
+                <h2 style="text-shadow:#bdbdbd ;color:#b9b9b9;">Eldoret International Airport</h2>
+                <p><span style="color:white;">Title:</span>Meteorological Attachee</p>
+                <p style="color: #bdbdbd;"><span style="color:white;">Major Role:</span> Collaborating with
+                    meteorologists, I helped distribute vital weather information to pilots and airport
+                    operators, saving lives, property, and costs for airlines.</p>
+                <p>Date:</p>
+
+
+
+            </div>
+
+
+            <div>
+                <div>
+                    <h2 style="text-shadow:#bdbdbd;color:#a9a9a9;">General roles</h2>
+
+                    <p class="w3-left-align" style="color: #bdbdbb;">
+
+                        - Monitoring weather parameters like clouds, pressure e.tc.<br>
+                        - Coding and decoding weather reports.<br>
+                        - Disseminating meteorological data.<br>
+                        - Plotting forms and charts.<br>
+                        - Verifying data with Synergy and AWOS systems.<br>
+                        - Analyzing and forecasting weather.<br>
+                        - Preparing aviation meteorological information.<br>
+                        - Compiling flight folders and documentation.<br>
+                        - Issuing weather alerts through SIGMET alerts.<br>
+                        - Conducting weather briefings.
+                    </p>
+                </div>
+
+
+                <div class="w3-left-align" style="margin-top:6%;margin-left:2%;"> <a
+                        onclick="redirectToPage('https://www.linkedin.com/in/erick-olando-9a9148220')"
+                        class="w3-center w3-border w3-padding w3-button">Read More</a>
+                </div>
+
+
+            </div>
+
+
+
+
+        </div>
+
+
+
+    </section>
+
+
+
+
+
+
+
+    <!--Virtual Assistant-->
+    <section id="va" style="height:100vh;background-color: #a9a9a9;" class="w3-hide-small w3-hide-medium">
+        <div style="margin-top:5%;">
+            <div class="w3-row w3-padding-16;" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+                <h1 class="w3-left-align" style="color:#250821">Virtual Assistant</h1>
+                <div class="w3-half w3-padding-16" style="padding-right:2%;color:#250821;">
+                    <p>
+                        As a self-employed virtual assistant for the past year, I've had the pleasure of collaborating
+                        with diverse clients both within Kenya and across the globe. My journey began by offering
+                        fundamental services like data entry, scheduling, and email management, all while fostering a
+                        sense of understanding and empathy for each client's individual needs. What brings me the most
+                        satisfaction is exceeding expectations, completing diverse projects efficiently, and leaving
+                        clients with a smile. Positive feedback from returning clients fueled my passion to further my
+                        assistance, and now I'm actively building a platform to connect with even more individuals and
+                        businesses seeking reliable virtual support.
+
+                    <div class="w3-left-align" style="margin-top:4%;"> <a
+                            onclick="redirectToPage('https://www.virtualbadge.io/certificate-validator?credential=cer-3929257b-c100-485e-8c73-b1cb3c6d')"
+                            class="w3-center w3-padding w3-border w3-card-14  w3-button"
+                            style="box-shadow: 3%;">Certification</a></div>
+                </div>
+
+
+
+
+                <div class="w3-half w3-padding-16" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+                    <img src="va_1.webp" class="w3-card-4" style="width:100%;height:42vh;margin-left:20px;">
+
+                </div>
+
+
+
+
+
+
+            </div>
+
+        </div>
+
+
+    </section>
+
+
+
+
+
+
+    <!--Virtual Assistant--Smartphone-->
+    <section id="va1" style="height:auto;background-color: #a9a9a9;" class="w3-hide-medium  w3-hide-large">
+        <div style="margin-top:5%;">
+            <div class=" " data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+                <h2 class="w3-left-align" style="color:#250821">Virtual Assistant</h2>
+                <div class=" " style="color:#250821;">
+                    <p>
+                        As a self-employed virtual assistant for the past year, I've had the pleasure of collaborating
+                        with diverse clients both within Kenya and across the globe. My journey began by offering
+                        fundamental services like data entry, scheduling, and email management, all while fostering a
+                        sense of understanding and empathy for each client's individual needs. What brings me the most
+                        satisfaction is exceeding expectations, completing diverse projects efficiently, and leaving
+                        clients with a smile. Positive feedback from returning clients fueled my passion to further my
+                        assistance, and now I'm actively building a platform to connect with even more individuals and
+                        businesses seeking reliable virtual support.
+
+                    <div class="w3-left-align" style="margin-top:4%;"> <a
+                            onclick="redirectToPage('https://www.virtualbadge.io/certificate-validator?credential=cer-3929257b-c100-485e-8c73-b1cb3c6d')"
+                            class="w3-center w3-padding w3-border w3-card-14  w3-button"
+                            style="box-shadow: 3%;">Certification</a></div>
+                </div>
+
+
+
+
+                <div data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+                    <img src="va_1.webp" class="w3-card-4"
+                        style="width:100%;height:42vh;overflow: hidden;padding:0;margin-top:5%;">
+
+                </div>
+
+
+
+
+
+
+            </div>
+
+        </div>
+
+
+    </section>
+
+
+
+
+    <!--Virtual Assistant--TABLET-->
+    <section id="va2" style="height:auto;background-color: #a9a9a9;" class="w3-hide-small w3-hide-large">
+        <div style="margin-top:2%;">
+            <div class=" w3-padding-16;" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+                <h2 class="w3-left-align" style="color:#250821">Virtual Assistant</h2>
+                <div class=" w3-padding-16" style="padding-right:2%;color:#250821;">
+                    <p>
+                        As a self-employed virtual assistant for the past year, I've had the pleasure of collaborating
+                        with diverse clients both within Kenya and across the globe. My journey began by offering
+                        fundamental services like data entry, scheduling, and email management, all while fostering a
+                        sense of understanding and empathy for each client's individual needs. What brings me the most
+                        satisfaction is exceeding expectations, completing diverse projects efficiently, and leaving
+                        clients with a smile. Positive feedback from returning clients fueled my passion to further my
+                        assistance, and now I'm actively building a platform to connect with even more individuals and
+                        businesses seeking reliable virtual support.
+
+                    <div class="w3-left-align" style="margin-top:4%;"> <a
+                            onclick="redirectToPage('https://www.virtualbadge.io/certificate-validator?credential=cer-3929257b-c100-485e-8c73-b1cb3c6d')"
+                            class="w3-center w3-padding w3-border w3-card-14  w3-button"
+                            style="box-shadow: 3%;">Certification</a></div>
+                </div>
+
+
+
+
+                
+
+
+
+
+
+
+            </div>
+
+        </div>
+
+
+    </section>
+
+ 
+
+
+
+    <!---WIHI Non profit-->
+    <section id="wihi" style="height:100vh;" class="w3-hide-small w3-hide-medium">
+
+        <div class="w3-padding w3-card-4" style="background-color: rgba(37,8,33, 0.5);margin-top:5%;"
+        data-aos="zoom-in-down" data-aos-easing="linear" data-aos-duration="1500">
+            <h1>WIHI(Non-profit)</h1>
+            <p><span class="w3-border-bottom">Start Date:</span>1/01/2023 to Present</p>
+            <p><span class="w3-border-bottom">Title:</span>Ambassador(Kenya)</p>
+            <br>
+            <p>Since January 2023, I've been thrilled to be part of a dynamic team at a weather and AI technology
+                startup alongside brilliant PhD researchers from Switzerland. The company's flexible structure allows me
+                to actively contribute in various roles. I currently serve as the Kenyan ambassador for WiHi, a
+                groundbreaking initiative utilizing blockchain and AI to connect weather stations worldwide. This
+                innovative approach aims to revolutionize weather forecasting and nowcasting, particularly in
+                data-scarce regions like parts of Africa. My involvement also includes participating in weather-related
+                research and supporting the onboarding of regional weather experts.
+
+
+                Excited to be a part of this impactful project! You can learn more about WiHi's mission and vision
+                through their website./</p>
+
+
+            <div class="w3-left-align" style="margin-top:4%;"> <a onclick="redirectToPage('https://docs.wihi.cc/')"
+                    class="w3-center w3-padding w3-border w3-card-14  w3-button" style="box-shadow: 3%;">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!---WIHI Non profit--SMARTPHONE-->
+    <section id="wihi1" class="w3-hide-large w3-hide-medium" style="height:auto;">
+
+        <div class="w3-padding  w3-card-4" style="background-color: rgba(37,8,33, 0.5);margin-top:2%;"
+        data-aos="zoom-in-down" data-aos-easing="linear" data-aos-duration="1500">
+            <h2>WIHI(Non-profit)</h2>
+            <p><span class="w3-border-bottom">Start Date:</span>1/01/2023 to Present</p>
+            <p><span class="w3-border-bottom">Title:</span>Ambassador(Kenya)</p>
+            <br>
+            <p>Since January 2023, I've been thrilled to be part of a dynamic team at a weather and AI technology
+                startup alongside brilliant PhD researchers from Switzerland. The company's flexible structure allows me
+                to actively contribute in various roles. I currently serve as the Kenyan ambassador for WiHi, a
+                groundbreaking initiative utilizing blockchain and AI to connect weather stations worldwide. This
+                innovative approach aims to revolutionize weather forecasting and nowcasting, particularly in
+                data-scarce regions like parts of Africa. My involvement also includes participating in weather-related
+                research and supporting the onboarding of regional weather experts.
+
+
+                Excited to be a part of this impactful project! You can learn more about WiHi's mission and vision
+                through their website./</p>
+
+
+            <div class="w3-left-align" style="margin-top:4%;"> <a onclick="redirectToPage('https://docs.wihi.cc/')"
+                    class="w3-center w3-padding w3-border w3-card-14  w3-button" style="box-shadow: 3%;">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <!---WIHI Non profit-TABLET-->
+    <section id="wihi2" style="height:auto;" class="w3-hide-small w3-hide-large">
+
+        <div class="w3-padding w3-card-4" style="background-color: rgba(37,8,33, 0.5);margin-top:5%;"
+        data-aos="zoom-in-down" data-aos-easing="linear" data-aos-duration="1500">
+            <h1>WIHI(Non-profit)</h1>
+            <p><span class="w3-border-bottom">Start Date:</span>1/01/2023 to Present</p>
+            <p><span class="w3-border-bottom">Title:</span>Ambassador(Kenya)</p>
+            <br>
+            <p>Since January 2023, I've been thrilled to be part of a dynamic team at a weather and AI technology
+                startup alongside brilliant PhD researchers from Switzerland. The company's flexible structure allows me
+                to actively contribute in various roles. I currently serve as the Kenyan ambassador for WiHi, a
+                groundbreaking initiative utilizing blockchain and AI to connect weather stations worldwide. This
+                innovative approach aims to revolutionize weather forecasting and nowcasting, particularly in
+                data-scarce regions like parts of Africa. My involvement also includes participating in weather-related
+                research and supporting the onboarding of regional weather experts.
+
+
+                Excited to be a part of this impactful project! You can learn more about WiHi's mission and vision
+                through their website./</p>
+
+
+            <div class="w3-left-align" style="margin-top:4%;"> <a onclick="redirectToPage('https://docs.wihi.cc/')"
+                    class="w3-center w3-padding w3-border w3-card-14  w3-button" style="box-shadow: 3%;">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!---SOFTWARE-->
+    <section id="software" class="w3-hide-small w3-hide-medium" style="height:100vh;background-color: #12f7ff;">
+
+        <h1 style="color:#250821;margin-left: 3%;margin-top: 2%;" data-aos="zoom-in-down">Software Engineering</h1>
+        <div class="w3-row" style="margin-top:2%;" data-aos="zoom-in-down">
+            <div class="w3-half w3-padding">
+                <div class=" w3-padding w3-card-4" style="background-color: rgba(37,8,33, 0.3)">
+
+                    <h2>ALX Africa/Holberton</h2>
+                    <p>Date:</p>
+
+                    <p>Currently honing my skills in a 15-month intensive program at ALX Africa in collaboration
+                        with
+                        Holberton. This program equips me with the foundational knowledge and practical skills
+                        in areas
+                        like
+                        web development, database management, and version control. I'm also developing essential
+                        soft
+                        skills
+                        like communication, collaboration, and problem-solving. I'm excited to leverage this
+                        experience
+                        to
+                        contribute to innovative projects and make a positive impact to a dynamic team.
+                    </p>
+
+                    <div class="w3-left-align" style="margin-top:4%;" data-aos="zoom-in-down"><a
+                            onclick="redirectToPage('https://github.com/eritech98')"
+                            class="w3-center w3-padding w3-border w3-card-14  w3-button"
+                            style="box-shadow: 3%;">Projects</a>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="w3-half w3-padding" data-aos="zoom-in-down">
+                <div class=" w3-padding w3-card-4" style="background-color: rgba(37,8,33, 0.3)">
+
+                    <h2>Side Hustle Internship</h2>
+                    <p>Date:</p>
+
+                    <p>Leveraged an 8-week side hustle internship to apply my knowledge and gain practical experience in
+                        [mention relevant skills learned during the internship]. This experience built upon the
+                        foundational knowledge from my [certification name] certification,.
+                        <strong>
+                            <p>Tools: HTML5,CSS,JAVASCRIPT,W3-CSS </p>
+                        </strong>
+                    </p>
+
+                    <br>
+                    <br>
+                    <div class="w3-left-align" style="margin-top:4%;" data-aos="zoom-in-down"> <a
+                            onclick="redirectToPage('https://certificate.terrahq.co/135945AB3XNIDEN16')"
+                            class="w3-center w3-padding w3-border w3-card-14  w3-button"
+                            style="box-shadow: 3%;">Certification</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+    </section>
+
+
+
+
+
+
+
+    <!--SOFTWARE --SMARTPHONE-->
+    <section id="software1" class="w3-hide-large w3-hide-medium" style="height:auto;background-color: #12f7ff;">
+
+        <h1 style="color:#250821;margin-right: 2%;margin-top: 2%;" data-aos="zoom-in-down">Software Engineering</h1>
+        <div>
+            <div class=" w3-padding w3-card-4" style="background-color: rgba(37,8,33, 0.3)">
+
+                <h2>ALX Africa/Holberton</h2>
+                <p>Date:</p>
+
+                <p>Currently honing my skills in a 15-month intensive program at ALX Africa in collaboration
+                    with
+                    Holberton. This program equips me with the foundational knowledge and practical skills
+                    in areas
+                    like
+                    web development, database management, and version control. I'm also developing essential
+                    soft
+                    skills
+                    like communication, collaboration, and problem-solving. I'm excited to leverage this
+                    experience
+                    to
+                    contribute to innovative projects and make a positive impact to a dynamic team.
+                </p>
+
+                <div class="w3-left-align" style="margin-top:4%;" data-aos="zoom-in-down"> <a
+                        onclick="redirectToPage('https://github.com/eritech98')"
+                        class="w3-center w3-padding w3-border w3-card-14  w3-button"
+                        style="box-shadow: 3%;">Projects</a>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div data-aos="zoom-in-down" style="margin-top:6%;">
+            <div class=" w3-padding w3-card-4" style="background-color: rgba(37,8,33, 0.3)">
+
+                <h2>Side Hustle Internship</h2>
+                <p>Date:</p>
+
+                <p>Leveraged an 8-week side hustle internship to apply my knowledge and gain practical experience in
+                    [mention relevant skills learned during the internship]. This experience built upon the
+                    foundational knowledge from my [certification name] certification,.
+                    <strong>
+                        <p>Tools: HTML5,CSS,JAVASCRIPT,W3-CSS </p>
+                    </strong>
+                </p>
+
+                <br>
+                <br>
+                <div class="w3-left-align" style="margin-top:4%;" data-aos="zoom-in-down"> <a
+                        onclick="redirectToPage('https://certificate.terrahq.co/135945AB3XNIDEN16')"
+                        class="w3-center w3-padding w3-border w3-card-14  w3-button"
+                        style="box-shadow: 3%;">Certification</a>
+                </div>
+            </div>
+        </div>
+
+        </div>
+
+
+
+    </section>
+
+
+
+
+    <!---SOFTWARE--TABLET-->
+    <section id="software2" class="w3-hide-small w3-hide-large" style="height:auto;background-color: #12f7ff;">
+
+        <h2 style="color:#250821;margin-left: 3%;margin-top: 2%;" data-aos="zoom-in-down">Software Engineering</h2>
+        <div class="w3-row" style="margin-top:2%;" data-aos="zoom-in-down">
+            <div class="w3-half w3-padding">
+                <div class=" w3-padding w3-card-4" style="background-color: rgba(37,8,33, 0.3)">
+
+                    <h2>ALX Africa/Holberton</h2>
+                    <p>Date:</p>
+
+                    <p>Currently honing my skills in a 15-month intensive program at ALX Africa in collaboration
+                        with
+                        Holberton. This program equips me with the foundational knowledge and practical skills
+                        in areas
+                        like
+                        web development, database management, and version control. I'm also developing essential
+                        soft
+                        skills
+                        like communication, collaboration, and problem-solving. I'm excited to leverage this
+                        experience
+                        to
+                        contribute to innovative projects and make a positive impact to a dynamic team.
+                    </p>
+
+                    <div class="w3-left-align" style="margin-top:4%;" data-aos="zoom-in-down"> <a
+                            onclick="redirectToPage('https://github.com/eritech98')"
+                            class="w3-center w3-padding w3-border w3-card-14  w3-button"
+                            style="box-shadow: 3%;">Projects</a>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="w3-half w3-padding" data-aos="zoom-in-down">
+                <div class=" w3-padding w3-card-4" style="background-color: rgba(37,8,33, 0.3)">
+
+                    <h2>Side Hustle Internship</h2>
+                    <p>Date:</p>
+
+                    <p>Leveraged an 8-week side hustle internship to apply my knowledge and gain practical experience in
+                        [mention relevant skills learned during the internship]. This experience built upon the
+                        foundational knowledge from my [certification name] certification,.
+                        
+                            <p>Tools: HTML5,CSS,JAVASCRIPT,W3-CSS </p>
+                       
+                    </p>
+
+                    <br>
+                    <br>
+                    <div class="w3-left-align" style="margin-top:4%;" data-aos="zoom-in-down"> <a
+                            onclick="redirectToPage('https://certificate.terrahq.co/135945AB3XNIDEN16')"
+                            class="w3-center w3-padding w3-border w3-card-14  w3-button"
+                            style="box-shadow: 3%;">Certification</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+    <!----SKILLS SECTION-->
+    <section id="awards" class="w3-hide-small w3-hide-medium"
+        style="background-image: url('award.webp');background-size: cover;height:100vh;background-attachment: fixed;">
+
+        <div class="w3-row w3-card-4"
+            style="background-color:rgba(37 ,8 ,33 ,0.7);margin-top: 4%;box-shadow: var(--neon-box-shadow);">
+            <h1 class="w3-center ">Awards and Professional Development</h1>
+
+            <div class="w3-quarter w3-padding" data-aos="zoom-in-down">
+
+
+                <h3 style="text-shadow: var(--neon-box-shadow);">The ALX Fellowship</h3>
+                <p style="color:#a9a9a9;">After completing my virtual assistant training at ALX Africa, I was invited to
+                    join a global talent pool. This network, known as "The Room," connects young African professionals,
+                    fostering collaboration and mentorship from international experts. The Room has been invaluable in
+                    my career journey through life long mentorship from experts.</p>
+                <div class="w3-left-align" style="margin-top:9%;"> <a
+                        onclick="redirectToPage('https://www.alxafrica.com/building-strong-communities-with-the-alx-fellowship/')"
+                        class="w3-center w3-padding w3-border w3-card-14  w3-button"
+                        style="box-shadow: 7%;">Certification</a>
+                </div>
+            </div>
+
+            <div class="w3-quarter w3-padding " data-aos="zoom-in-down">
+                <h3 style="text-shadow: var(--neon-box-shadow);">Research & scholarship Award</h3>
+                <p style="color:#a9a9a9;">I was honored to receive the Dr. Joseph R. Mukabana, MBS Award for outstanding
+                    research in the Department of Meteorology,University of Nairobi,Kenya. This prestigious recognition
+                    was further complemented by a University of Nairobi scholarship, enabling me to pursue my Master
+                    studies in Meteorology.</p>
+
+                <div class="w3-left-align" style="margin-top:4%;"> <a
+                        onclick="redirectToPage('https://www.virtualbadge.io/certificate-validator?credential=cer-3929257b-c100-485e-8c73-b1cb3c6d')"
+                        class="w3-center w3-padding w3-border w3-card-14  w3-button"
+                        style="box-shadow: 3%;">Certification</a>
+                </div>
+            </div>
+
+            <div class="w3-quarter w3-padding" data-aos="zoom-in-down">
+                <h3 class="w3-center" style="text-shadow: var(--neon-box-shadow);">Mc kinsey &company Forward Programme
+                </h3>
+                <p style="color:#a9a9a9;">I completed the McKinsey Forward Program, a transformative six-month
+                    experience that honed my problem-solving, communication, and digital agility skills. This program
+                    equipped me to become a more adaptable and impactful contributor for the future of work</p>
+
+
+                <div class="w3-left-align" style="margin-top:4%;"> <a
+                        onclick="redirectToPage('https://www.virtualbadge.io/certificate-validator?credential=cer-3929257b-c100-485e-8c73-b1cb3c6d')"
+                        class="w3-center w3-padding w3-border w3-card-14  w3-button"
+                        style="box-shadow: 3%;">Certification</a>
+                </div>
+
+            </div>
+
+
+
+
+            <div class="w3-quarter w3-padding" data-aos="zoom-in-down">
+
+                <h3 style="text-shadow: var(--neon-box-shadow);">Global Youth Climate summit, 2023</h3>
+                <p style="color:#a9a9a9;">I was priviledged to be as Selected virtual delegate for Tanzania's Global
+                    Youth Climate Summit that was held from october 4th - 7th, I networked and learned from diverse
+                    professionals across international organizations on "Youth Leadership and Climate Change"</p>
+
+                <div class="w3-left-align" style="margin-top:12%;"> <a
+                        onclick="redirectToPage('https://www.virtualbadge.io/certificate-validator?credential=cer-3929257b-c100-485e-8c73-b1cb3c6d')"
+                        class="w3-center w3-padding w3-border w3-card-14  w3-button"
+                        style="box-shadow: 3%;">Certification</a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+    <!--Section Awards--SMARTPHONE-->
+    <section id="awards1" class="w3-hide-large w3-hide-medium"
+        style="background-image: url('award.webp');background-size: cover;height:auto;background-attachment: fixed;">
+
+        <div class=" w3-card-4"
+            style="background-color:rgba(37 ,8 ,33 ,0.7);margin-top: 1%;box-shadow: var(--neon-box-shadow);">
+            <h2 class="w3-left-align w3-padding">Awards and Professional Development</h2>
+
+            <div class=" w3-padding" data-aos="zoom-in-down">
+
+
+                <h3 style="text-shadow: var(--neon-box-shadow);">The ALX Fellowship</h3>
+                <p style="color:#a9a9a9;">After completing my virtual assistant training at ALX Africa, I was invited to
+                    join a global talent pool. This network, known as "The Room," connects young African professionals,
+                    fostering collaboration and mentorship from international experts. The Room has been invaluable in
+                    my career journey through life long mentorship from experts.</p>
+                <div class="w3-left-align" style="margin-top:1%;"> <a
+                        onclick="redirectToPage('https://www.alxafrica.com/building-strong-communities-with-the-alx-fellowship/')"
+                        class="w3-center w3-padding w3-border w3-card-14  w3-button"
+                        style="box-shadow: 7%;">Certification</a>
+                </div>
+            </div>
+
+            <div class=" w3-padding " data-aos="zoom-in-down">
+                <h3 style="text-shadow: var(--neon-box-shadow);">Research & scholarship Award</h3>
+                <p style="color:#a9a9a9;">I was honored to receive the Dr. Joseph R. Mukabana, MBS Award for outstanding
+                    research in the Department of Meteorology,University of Nairobi,Kenya. This prestigious recognition
+                    was further complemented by a University of Nairobi scholarship, enabling me to pursue my Master
+                    studies in Meteorology.</p>
+
+                <div class="w3-left-align" style="margin-top:4%;"> <a
+                        onclick="redirectToPage('https://www.virtualbadge.io/certificate-validator?credential=cer-3929257b-c100-485e-8c73-b1cb3c6d')"
+                        class="w3-center w3-padding w3-border w3-card-14  w3-button"
+                        style="box-shadow: 3%;">Certification</a>
+                </div>
+            </div>
+
+            <div class=" w3-padding" data-aos="zoom-in-down">
+                <h3 class="w3-left-align" style="text-shadow: var(--neon-box-shadow);">Mc kinsey &company Forward
+                    Programme
+                </h3>
+                <p style="color:#a9a9a9;">I completed the McKinsey Forward Program, a transformative six-month
+                    experience that honed my problem-solving, communication, and digital agility skills. This program
+                    equipped me to become a more adaptable and impactful contributor for the future of work</p>
+
+
+                <div class="w3-left-align" style="margin-top:4%;"> <a
+                        onclick="redirectToPage('https://www.virtualbadge.io/certificate-validator?credential=cer-3929257b-c100-485e-8c73-b1cb3c6d')"
+                        class="w3-center w3-padding w3-border w3-card-14  w3-button"
+                        style="box-shadow: 3%;">Certification</a>
+                </div>
+
+            </div>
+
+
+
+
+            <div class=" w3-padding" data-aos="zoom-in-down">
+
+                <h3 style="text-shadow: var(--neon-box-shadow);">Global Youth Climate summit, 2023</h3>
+                <p style="color:#a9a9a9;">I was priviledged to be as Selected virtual delegate for Tanzania's Global
+                    Youth Climate Summit that was held from october 4th - 7th, I networked and learned from diverse
+                    professionals across international organizations on "Youth Leadership and Climate Change"</p>
+
+                <div class="w3-left-align" style="margin-top:12%;"> <a
+                        onclick="redirectToPage('https://www.virtualbadge.io/certificate-validator?credential=cer-3929257b-c100-485e-8c73-b1cb3c6d')"
+                        class="w3-center w3-padding w3-border w3-card-14  w3-button"
+                        style="box-shadow: 3%;">Certification</a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!--Section Awards--TABLET---->
+    <section id="awards2" class="w3-hide-large w3-hide-small"
+        style="background-image: url('award.webp');background-size: cover;height:auto;background-attachment: fixed;">
+
+        <div class=" w3-card-4"
+            style="background-color:rgba(37 ,8 ,33 ,0.7);margin-top: 1%;box-shadow: var(--neon-box-shadow);">
+            <h2 class="w3-left-align w3-padding">Awards and Professional Development</h2>
+
+            <div class=" w3-padding" data-aos="zoom-in-down">
+
+
+                <h3 style="text-shadow: var(--neon-box-shadow);">The ALX Fellowship</h3>
+                <p style="color:#a9a9a9;">After completing my virtual assistant training at ALX Africa, I was invited to
+                    join a global talent pool. This network, known as "The Room," connects young African professionals,
+                    fostering collaboration and mentorship from international experts. The Room has been invaluable in
+                    my career journey through life long mentorship from experts.</p>
+                <div class="w3-left-align" style="margin-top:1%;"> <a
+                        onclick="redirectToPage('https://www.alxafrica.com/building-strong-communities-with-the-alx-fellowship/')"
+                        class="w3-center w3-padding w3-border w3-card-14  w3-button"
+                        style="box-shadow: 7%;">Certification</a>
+                </div>
+            </div>
+
+            <div class=" w3-padding " data-aos="zoom-in-down">
+                <h3 style="text-shadow: var(--neon-box-shadow);">Research & scholarship Award</h3>
+                <p style="color:#a9a9a9;">I was honored to receive the Dr. Joseph R. Mukabana, MBS Award for outstanding
+                    research in the Department of Meteorology,University of Nairobi,Kenya. This prestigious recognition
+                    was further complemented by a University of Nairobi scholarship, enabling me to pursue my Master
+                    studies in Meteorology.</p>
+
+                <div class="w3-left-align" style="margin-top:4%;"> <a
+                        onclick="redirectToPage('https://www.virtualbadge.io/certificate-validator?credential=cer-3929257b-c100-485e-8c73-b1cb3c6d')"
+                        class="w3-center w3-padding w3-border w3-card-14  w3-button"
+                        style="box-shadow: 3%;">Certification</a>
+                </div>
+            </div>
+
+            <div class=" w3-padding" data-aos="zoom-in-down">
+                <h3 class="w3-left-align" style="text-shadow: var(--neon-box-shadow);">Mc kinsey &company Forward
+                    Programme
+                </h3>
+                <p style="color:#a9a9a9;">I completed the McKinsey Forward Program, a transformative six-month
+                    experience that honed my problem-solving, communication, and digital agility skills. This program
+                    equipped me to become a more adaptable and impactful contributor for the future of work</p>
+
+
+                <div class="w3-left-align" style="margin-top:4%;"> <a
+                        onclick="redirectToPage('https://www.virtualbadge.io/certificate-validator?credential=cer-3929257b-c100-485e-8c73-b1cb3c6d')"
+                        class="w3-center w3-padding w3-border w3-card-14  w3-button"
+                        style="box-shadow: 3%;">Certification</a>
+                </div>
+
+            </div>
+
+
+
+
+            <div class=" w3-padding" data-aos="zoom-in-down">
+
+                <h3 style="text-shadow: var(--neon-box-shadow);">Global Youth Climate summit, 2023</h3>
+                <p style="color:#a9a9a9;">I was priviledged to be as Selected virtual delegate for Tanzania's Global
+                    Youth Climate Summit that was held from october 4th - 7th, I networked and learned from diverse
+                    professionals across international organizations on "Youth Leadership and Climate Change"</p>
+
+                <div class="w3-left-align" style="margin-top:12%;"> <a
+                        onclick="redirectToPage('https://www.virtualbadge.io/certificate-validator?credential=cer-3929257b-c100-485e-8c73-b1cb3c6d')"
+                        class="w3-center w3-padding w3-border w3-card-14  w3-button"
+                        style="box-shadow: 3%;">Certification</a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+
+    <!-----Footer-->
+    <section id="" style="background-color: #250821;height:auto;" class="w3-hide-small w3-hide-medium w3-hide-large">
+        <div class="w3-row w3-center">
+
+            <div class="w3-third w3-padding" data-aos="zoom-in-down">
+                <h2 >Contacts</h2>
+                <p>Email:Opiyoerick1998@gmail.com</p>
+                <p>Telephone:+254710897101</p>
+
+
+            </div>
+
+            <div class="w3-third w3-padding" data-aos="zoom-in-down">
+                <h2>Social media</h2>
+                <p onclick="redirectToPage('https://github.com/eritech98')">Github</p>
+                <p onclick="redirectToPage('https://twitter.com/erick_olando')">X-Twitter</p>
+                <p onclick="redirectToPage('https://www.linkedin.com/in/erick-olando-9a9148220')">Linkedin</p>
+                <p onclick="redirectToPage('https://discord.com/channels/@me')">Discord</p>>
+            </div>
+
+
+            <div class="w3-third w3-padding" data-aos="zoom-in-down">
+                <h2>Quick Links</h2>
+                <p><a href=#Home>Home</a></p>
+                <p><a href="#about1">About</a></p>
+                <p><a href="#Education1">Education</a></p>
+                <p><a href="#meteorology2">Work Experience</a></p>
+                <p><a href="#award1">Accolades and Growth</a></p>
+
+                <p> <a onclick="redirectToPage('https://docs.wihi.cc/')">Wihi</a>
+                <p> <a onclick="redirectToPage('https://www.alxafrica.com/software-engineering-hard-vs-soft-skills/')">Alx
+                        Africa</a></p>
+                <p> <a onclick="redirectToPage('https://gylc.org/summit2023.html')">GYCL</a></p>
+
+
+            </div>
+
+
+
+
+        </div>
+
+
+
+
+    </section>
+
+
+
+
+    <!-----Footer-SMARTPHONE-->
+    <section id="contact6" style="background-color: #250821;height:105vh;" class="w3-hide-medium w3-hide-large">
+        <div class=" w3-center ">
+
+            <div class=" " data-aos="zoom-in-down">
+                <h2>Contacts</h2>
+                <p>Email:Opiyoerick1998@gmail.com</p>
+                <p>Telephone:+254710897101</p>
+
+
+            </div>
+
+            <div class="" data-aos="zoom-in-down">
+                <h2>Social media</h2>
+                <p onclick="redirectToPage('https://github.com/eritech98')">Github</p>
+                <p onclick="redirectToPage('https://twitter.com/erick_olando')">X-Twitter</p>
+                <p onclick="redirectToPage('https://www.linkedin.com/in/erick-olando-9a9148220')">Linkedin</p>
+                <p onclick="redirectToPage('https://discord.com/channels/@me')">Discord</p>
+            </div>
+
+
+            <div class=" w3-center" data-aos="zoom-in-down">
+                <h2>Quick Links</h2>
+                <p><a href=#Home>Home</a></p>
+                <p><a href="#about1">About</a></p>
+                <p><a href="#Education1">Education</a></p>
+                <p><a href="#meteorology2">Work Experience</a></p>
+                <p><a href="#award1">Accolades and Growth</a></p>
+
+                <p> <a onclick="redirectToPage('https://docs.wihi.cc/')">Wihi</a>
+                <p> <a onclick="redirectToPage('https://www.alxafrica.com/software-engineering-hard-vs-soft-skills/')">Alx
+                        Africa</a></p>
+                <p> <a onclick="redirectToPage('https://gylc.org/summit2023.html')">GYCL</a></p>
+
+            </div>
+
+
+
+
+        </div>
+
+
+
+
+    </section>
+
+
+
+
+<!-----Footer-TABLET--->
+<section id="contact3" style="background-color: #250821;height:auto;" class="w3-hide-small ">
+    <div class="w3-row w3-left-align" id = "contact90">
+
+        <div class="w3-half w3-padding" data-aos="zoom-in-down">
+            <h2>Contacts</h2>
+            <p>Email:<br>Opiyoerick1998@gmail.com</p>
+            <p>Telephone:<br>+254710897101</p>
+
+
+        </div>
+
+        <div class="w3-half w3-padding" data-aos="zoom-in-down">
+            <h2>Social media</h2>
+            <p onclick="redirectToPage('https://github.com/eritech98')">Github</p>
+                <p onclick="redirectToPage('https://twitter.com/erick_olando')">X-Twitter</p>
+                <p onclick="redirectToPage('https://www.linkedin.com/in/erick-olando-9a9148220')">Linkedin</p>
+                <p onclick="redirectToPage('https://discord.com/channels/@me')">Discord</p>
+        </div>
+
+    </div>
+
+        <div class="w3-padding w3
+        -left-align" data-aos="zoom-in-down"style="margin-top:3%;">
+        <h2>Quick Links</h2>
+        <p><a href=#Home>Home</a></p>
+        <p><a href="#about1">About</a></p>
+        <p><a href="#Education1">Education</a></p>
+        <p><a href="#meteorology2">Work Experience</a></p>
+        <p><a href="#award1">Accolades and Growth</a></p>
+
+        <p> <a onclick="redirectToPage('https://docs.wihi.cc/')">Wihi</a>
+        <p> <a onclick="redirectToPage('https://www.alxafrica.com/software-engineering-hard-vs-soft-skills/')">Alx
+                Africa</a></p>
+        <p> <a onclick="redirectToPage('https://gylc.org/summit2023.html')">GYCL</a></p>
+
+
+        </div>
+
+
+
+
+    
+
+
+
+</section>
+
+
+    <script src="erickportfolio.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+
+    <script>
+        AOS.init();
+    </script>
+
+
+
+</body>
+
+
+</html>
